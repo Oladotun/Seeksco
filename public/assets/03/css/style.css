@@ -2718,6 +2718,10 @@ a.site__menu__icon {
   color: #64A8F0;
 }
 
+.place__author__info .place__author__star span path {
+  fill: #64A8F0;
+}
+
 .place__author__info a {
   font-size: 15px;
   font-weight: 500;
@@ -8522,7 +8526,6 @@ a.place__comments__reply i {
 }
 
 .home-testimonials .testimonial-item img.quote {
-  background-color: #64A8F0;
   position: absolute;
   top: 16px;
   right: 0;

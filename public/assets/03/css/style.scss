@@ -2461,6 +2461,11 @@ a.site__menu__icon {
 			i {
 				color: #64A8F0;
 			}
+
+			path {
+			
+				fill: #64A8F0;
+			}
 		}
 	}
 	a {
@@ -7991,7 +7996,6 @@ a.place__comments__reply {
 	    transform: translateX(0);
 	}
 	img.quote{
-		background-color: #64A8F0;
 		position: absolute;
 		top: 16px;
 		right: 0;

@@ -16,8 +16,8 @@
     height: 20px;
     margin: 2px;
     border-radius: 50%;
-    border: 2px solid #64A8F0;
-    border-color: #64A8F0 transparent #64A8F0 transparent;
+    border: 2px solid #23d3d3;
+    border-color: #23d3d3 transparent #23d3d3 transparent;
     animation: golo-loading 1.2s linear infinite;
 }
 
@@ -179,7 +179,7 @@
     content: '';
     position: absolute;
     height: 5px;
-    background: #64A8F0;
+    background: #23d3d3;
     opacity: 0.4;
     width: 100%;
     left: 0;
@@ -201,7 +201,7 @@
 }
 
 .golo-menu-filter ul.filter-control li.active a:before {
-    background: #64A8F0;
+    background: #23d3d3;
     -webkit-transform: scale3d(1, 1, 1);
     -moz-transform: scale3d(1, 1, 1);
     -o-transform: scale3d(1, 1, 1);
@@ -291,7 +291,7 @@
 }
 
 .place-item__addwishlist.active i {
-    color: #64A8F0;
+    color: #23d3d3;
 }
 
 .maps-button .field-select i {
@@ -367,7 +367,7 @@
 
 
 .golo-filter-toggle.active {
-    color: #64A8F0;
+    color: #23d3d3;
 }
 
 .places-item .place-item__addwishlist i {
@@ -460,9 +460,9 @@
 }
 
 .place-04 .place-share a.active {
-    background: #64A8F0;
+    background: #23d3d3;
     color: #fff;
-    border-color: #64A8F0;
+    border-color: #23d3d3;
 }
 
 .site__search__form {
@@ -682,7 +682,7 @@
 }
 
 .golo-add-to-wishlist.active i {
-    color: #64A8F0;
+    color: #23d3d3;
 }
 
 .place-item.layout-02 .place-thumb img {
@@ -847,7 +847,7 @@
 }
 
 .restaurant-slider .slick-dots li.slick-active button:before, .cuisine-slider .slick-dots li.slick-active button:before, .testimonial-slider .slick-dots li.slick-active button:before {
-    background-color: #64A8F0;
+    background-color: #23d3d3;
 }
 
 @media only screen and (max-width: 992px) {
