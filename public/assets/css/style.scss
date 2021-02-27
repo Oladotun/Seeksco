@@ -8,7 +8,7 @@
 ==========================================================*/
 $color_1: #5d5d5d;
 $color_2: #2d2d2d;
-$color_3: #23d3d3;
+$color_3: #64A8F0;
 $color_4: inherit;
 $color_5: #757575;
 $color_6: #F5F5F5;
@@ -965,6 +965,7 @@ textarea {
 		i{
 			font-size: 24px;
 			vertical-align: -2px;
+			background-color: #64A8F0;
 		}
 	}
 	.right-header__search{
@@ -2476,7 +2477,7 @@ a.place__comments__reply {
 			}
 			a:after{
 				content: '';
-			    background-image: url('../images/assets/icon-close.svg');
+			    background-image: url('public/assets/images/icon-close.svg');
 			    background-size: 10px 10px;
 			    background-repeat: no-repeat;
 			    background-position: center;
@@ -3856,7 +3857,7 @@ a.place__comments__reply {
 	content: '';
 	height: 10px;
 	width: 10px;
-	background-image: url('../images/icon-close-12.svg');
+	background-image: url('public/assets/images/icon-close-12.svg');
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -5364,7 +5365,7 @@ a.place__comments__reply {
   		font-weight: 500;
   		font-family: $font_family_2;
   		a{
-  			color: #23d3d3;
+  			color: #64A8F0;
   			&:hover{
   				opacity: 0.6;
   			}
@@ -6017,7 +6018,7 @@ a.place__comments__reply {
 		&:after{
 			content: '';
 			height: 135px;
-			background-image: url('../images/assets/mask-1.svg');
+			/*background-image: url('public/assets/images/mask-1.svg');*/
 			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -6496,7 +6497,7 @@ a.place__comments__reply {
 	position: relative;
 	&:before{
 		content: '';
-	    background-image: url(../images/assets/mask-1.svg);
+	    /*background-image: url(public/assets/images/mask-1.svg);*/
 	    background-size: cover;
 	    background-position: center;
 	    position: absolute;
@@ -8144,7 +8145,7 @@ a.place__comments__reply {
 		}
 	}
 	.site-banner:after{
-		background-image: url(../images/bg_hero_bottom.svg);
+		/*background-image: url(public/assets/images/bg_hero_bottom.svg);*/
 		background-size: 110%;
 		height: 40px;
 	}
@@ -9440,7 +9441,7 @@ a.place__comments__reply {
 				display: block;
 			}
 			> a{
-				color: #23d3d3;
+				color: #64A8F0;
 			}
 		}
 		.sub-menu{
