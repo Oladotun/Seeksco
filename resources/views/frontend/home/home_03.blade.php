@@ -31,7 +31,7 @@
                     <span><b style="font-size: 32pt; color: black">{{__('Local Restaurants')}}</b></span>
                     <!--<h1>{{__('Local Restaurants.')}}</h1>-->
                     <span ><b style="color:#00563F">{{__('starting in')}}</b>
-                        <b style="color:#E9AF2F">{{__('Fitchburg.')}}</b>
+                        <b style="color:#E9AF2F">{{__('Fitchburg,MA.')}}</b>
                     </span>
 
                     <form action="{{route('page_search_listing')}}" class="site-banner__search layout-02">
