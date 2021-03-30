@@ -244,7 +244,7 @@
             <div class="container">
                 <div class="join-inner">
                     <h2>{{__('Restaurateurs Join Us')}}</h2>
-                    <p>{{__('Join the more than 10,000 restaurants which fill seats and manage reservations with Golo.')}}</p>
+                    <p>{{__('Let SeeksCo Help You With Getting More Customers. Send Us An Email ')}}</p>
                     <a href="#" class="btn" title="Learn More">{{__('Learn More')}}</a>
                 </div>
             </div>
