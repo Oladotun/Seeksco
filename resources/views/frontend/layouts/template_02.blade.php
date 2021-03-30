@@ -352,7 +352,7 @@
                     <div class="col-lg-3">
                         <aside class="footer__top__nav footer__top__nav--contact">
                             <h3>{{__('Contact Us')}}</h3>
-                            <p>{{__('Email: support@domain.com')}}</p>
+                            <p>{{__('Email: seeksco2021@gmail.com')}}</p>
                             <p>{{__('Phone: 1 (00) 832 2342')}}</p>
                             <ul>
                                 <li>

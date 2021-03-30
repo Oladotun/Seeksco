@@ -344,7 +344,7 @@
                     <div class="col-lg-5">
                         <div class="footer__top__info">
                             <a title="Logo" href="#" class="footer__top__info__logo"><img src="{{asset(setting('logo') ? 'uploads/' . setting('logo') : 'assets/images/assets/logo.png')}}" alt="logo"></a>
-                            <p class="footer__top__info__desc">{{__('Discover amazing things to do everywhere you go.')}}</p>
+                            <p class="footer__top__info__desc">{{__('Helping Local Restaurants Attract More Customers.')}}</p>
                             <div class="footer__top__info__app">
                                 <a title="App Store" href="#" class="banner-apps__download__iphone"><img src="{{asset('assets/images/assets/app-store.png')}}" alt="App Store"></a>
                                 <a title="Google Play" href="#" class="banner-apps__download__android"><img src="{{asset('assets/images/assets/google-play.png')}}" alt="Google Play"></a>
@@ -376,7 +376,7 @@
                     <div class="col-lg-3">
                         <aside class="footer__top__nav footer__top__nav--contact">
                             <h3>{{__('Contact Us')}}</h3>
-                            <p>{{__('Email: support@domain.com')}}</p>
+                            <p>{{__('Email: seeksco2021@gmail.com')}}</p>
                             <p>{{__('Phone: 1 (00) 832 2342')}}</p>
                             <ul>
                                 <li class="facebook">
