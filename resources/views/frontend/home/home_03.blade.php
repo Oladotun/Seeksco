@@ -240,16 +240,7 @@
             </div><!-- .container -->
         </section><!-- .featured-wrap -->
 
-        <section class="join-wrap" {!! $home_banner_app !!}>
-            <div class="container">
-                <div class="join-inner">
-                    <h2>{{__('Restaurateurs Join Us')}}</h2>
-                    <p>{{__('Let SeeksCo Help You With Getting More Customers. Send Us An Email ')}}</p>
-                    <a href="#" class="btn" title="Learn More">{{__('Learn More')}}</a>
-                </div>
-            </div>
-        </section><!-- .join-wrap -->
-
+       
         <section class="home-testimonials testimonials">
             <div class="container">
                 <div class="title_home">
@@ -287,6 +278,16 @@
                 </div><!-- .testimonial-sliders -->
             </div>
         </section><!-- .testimonials -->
+
+         <section class="join-wrap" {!! $home_banner_app !!}>
+            <div class="container">
+                <div class="join-inner">
+                    <h2>{{__('Restaurateurs Join Us')}}</h2>
+                    <p>{{__('Let SeeksCo Help You With Getting More Customers. Send Us An Email ')}}</p>
+                    <a href="#" class="btn" title="Learn More">{{__('Learn More')}}</a>
+                </div>
+            </div>
+        </section><!-- .join-wrap -->
 
         <section class="blogs-wrap section-bg">
             <div class="container">
