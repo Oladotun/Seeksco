@@ -430,7 +430,9 @@
 }
 
 .place-04 .place__box-overview .place__desc {
-    height: 83px;
+    height: 137px;
+    overflow:visible;
+    position: static;
     /*max-height: 137px;*/
 }
 
