@@ -5776,12 +5776,13 @@ a.place__comments__reply i {
 }
 
 .single .place__box-overview .place__desc {
-  font-size: 18px;
+  /*font-size: 18px;*/
   line-height: 1.56;
+  text-align: justify;
   margin-bottom: 20px;
-  position: relative;
+  position: static;
   height: 137px;
-  overflow: hidden;
+  overflow: visible;
   transition: all 0.3s;
 }
 

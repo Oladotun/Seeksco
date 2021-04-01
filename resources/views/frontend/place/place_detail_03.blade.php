@@ -180,7 +180,7 @@
                                     {!! $place->description !!}
 
                                 </div><!-- .place__desc -->
-                                <a href="#" class="show-more" title="{{__('Show more')}}">{{__('Show more')}}</a>
+                                <!-- <a href="#" class="show-more" title="{{__('Show more')}}">{{__('Show more')}}</a> -->
                             </div>
 
                             <div class="place__box place__box-map">
