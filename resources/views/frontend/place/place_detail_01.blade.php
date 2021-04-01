@@ -166,7 +166,8 @@
                             <div class="place__box place__box-overview">
                                 <h3>{{__('Overview')}}</h3>
                                 <div class="place__desc">
-                                    {{$place->description}}
+                                    {!! $place->description !!}
+
                                 </div><!-- .place__desc -->
                                 <a href="#" class="show-more" title="{{__('Show more')}}">{{__('Show more')}}</a>
                             </div>
