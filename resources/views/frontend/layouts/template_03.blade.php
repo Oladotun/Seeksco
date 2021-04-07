@@ -255,10 +255,7 @@
                                             <input type="text" id="register_name" name="name" placeholder="Full Name" required>
                                         </div>
                                         <div class="field-input">
-                                            <input type="email" id="register_email" name="email" placeholder="Enter your Fitchburg State University email" 
-                                            pattern=".+@fitchburgstate.edu|.+@student.fitchburgstate.edu"
-                                            title="Please provide only Fitchburg State University email"
-                                            required>
+                                            <input type="email" id="register_email" name="email" placeholder="Email" required>
                                         </div>
                                         <div class="field-input">
                                             <input type="password" id="register_password" name="password" placeholder="Password" required>
