@@ -237,7 +237,7 @@
                                     <form action="{{route('login')}}" class="form-log form-content" id="login" method="POST">
                                         @csrf
                                         <div class="field-input">
-                                            <input type="text" id="email" name="email" placeholder="Email Address" required>
+                                            <input type="text" id="email" name="email" placeholder="Enter Your Fitchburg State University Email" required>
                                         </div>
                                         <div class="field-input">
                                             <input type="password" id="password" name="password" placeholder="Password" required>
@@ -255,7 +255,10 @@
                                             <input type="text" id="register_name" name="name" placeholder="Full Name" required>
                                         </div>
                                         <div class="field-input">
-                                            <input type="email" id="register_email" name="email" placeholder="Email" required>
+                                            <input type="email" id="register_email" name="email" placeholder="Enter Your Fitchburg State University Email" 
+                                            pattern=".+@student.fitchburgstate.edu|.+@fitchburgstate.edu"
+                                            title="Please Enter Your Fitchburg State Email"
+                                            required>
                                         </div>
                                         <div class="field-input">
                                             <input type="password" id="register_password" name="password" placeholder="Password" required>
