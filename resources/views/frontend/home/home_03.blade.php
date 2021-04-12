@@ -15,7 +15,7 @@
 @extends('frontend.layouts.template_03')
 @section('main')
     <main id="main" class="site-main">
-        <section class="banner-wrap">
+        <!-- <section class="banner-wrap">
             <div class="flex">
                 <div class="banner-left"></div>
                 <div class="banner slick-sliders">
@@ -23,14 +23,14 @@
                         <div class="item"><img src="{{$home_banner}}" alt="Banner"></div>
                     </div>
                 </div><!-- .banner -->
-            </div>
-            <div class="container">
+            </div> 
+            <!-- <div class="container">
                 <div class="banner-content">
                     <span>{{__('Drink, Food & Enjoy')}}</span>
                     <span><b style="font-size: 32pt; color: black">{{__('Discover Great')}}</b></span>
                     <span><b style="font-size: 32pt; color: black">{{__('Local Restaurants')}}</b></span>
                     <!--<h1>{{__('Local Restaurants.')}}</h1>-->
-                    <span ><b style="color:#00563F">{{__('starting in')}}</b>
+                    <!-- <span ><b style="color:#00563F">{{__('starting in')}}</b>
                         <b style="color:#E9AF2F">{{__('Fitchburg,MA.')}}</b>
                     </span>
 
@@ -46,7 +46,7 @@
                                 </ul>
                             </div>
                         </div><!-- .site-banner__search__input -->
-                        <div class="field-input">
+                       <!--  <div class="field-input">
                             <label for="loca">{{__('Where')}}</label>
                             <input type="text" class="site-banner__search__input open-suggestion" id="location_search" placeholder="{{__('Location...')}}"
                                    name="location" autocomplete="off">
@@ -57,19 +57,19 @@
                                 </ul>
                             </div>
                         </div><!-- .site-banner__search__input -->
-                        <div class="field-submit">
+                        <!-- <div class="field-submit">
                             <button><i class="las la-search la-24-black"></i></button>
                         </div>
                     </form>
 
                 </div>
             </div>
-        </section><!-- .banner-wrap -->
+        </section><!-- .banner-wrap --> 
 
         <section class="restaurant-wrap">
             <div class="container">
                 <div class="title_home">
-                    <h2>{{__('Popular Restaurants in Town')}}</h2>
+                    <h2>{{__('Popular Restaurants in Fitchburg,MA')}}</h2>
                 </div>
                 <div class="restaurant-sliders slick-sliders">
                     <div class="restaurant-slider slick-slider" data-item="4" data-itemScroll="4" data-arrows="true" data-dots="true"
