@@ -32,6 +32,15 @@
 
     <link rel="icon" sizes="16x16" href="{{asset('assets/images/favicon.png')}}">
     <meta name="csrf-token" content="{{csrf_token()}}"/>
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M77VTYS9M6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-M77VTYS9M6');
+    </script>
     
     @stack('style')
 </head>
