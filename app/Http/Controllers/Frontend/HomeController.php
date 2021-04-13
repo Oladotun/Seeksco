@@ -73,7 +73,7 @@ class HomeController extends Controller
             ->with('avgReview')
             ->withCount('wishList')
             ->where('status', Place::STATUS_ACTIVE)
-            ->limit(10)
+            // ->limit(10)
             ->get();
 
         $testimonials = Testimonial::query()
