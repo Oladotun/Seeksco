@@ -30,11 +30,11 @@
                             <div class="tab-pane fade show {{$index !== 0 ?: "active"}}" id="language_{{$language->code}}" role="tabpanel" aria-labelledby="home-tab">
                                 <div class="form-group">
                                     <label for="place_name">Place name <small>({{$language->code}})</small>: *</label>
-                                    <input type="text" class="form-control" name="{{$language->code}}[name]" value="{{$trans ? $trans['name'] : ''}}" placeholder="What the name of place" autocomplete="off" {{$index !== 0 ?: "required"}}>
+                                    <input type="text" class="form-control" name="{{$language->code}}[name]" value="{{$trans ? $trans['name'] : ''}}" placeholder="What the name of place" autocomplete="off">
                                 </div>
                                 <div class="form-group">
                                     <label for="name">Description <small>({{$language->code}})</small>: *</label>
-                                    <textarea type="text" class="form-control tinymce_editor" name="{{$language->code}}[description]" rows="6" {{$index !== 0 ?: "required"}}>{{$trans ? $trans['description'] : ''}}</textarea>
+                                    <textarea type="text" class="form-control tinymce_editor" name="{{$language->code}}[description]" rows="6">{{$trans ? $trans['description'] : ''}}</textarea>
                                 </div>
                             </div>
                         @endforeach
@@ -57,7 +57,7 @@
             <div class="row">
                 <div class="form-group col-md-6">
                     <label for="name">Category: *</label>
-                    <select class="form-control chosen-select" id="" name="category[]" multiple data-live-search="true" required>
+                    <select class="form-control chosen-select" id="" name="category[]" multiple data-live-search="true">
                         @foreach($categories as $cat)
                             <option value="{{$cat->id}}" {{isSelected($cat->id, $place->category)}}>{{$cat->name}}</option>
                         @endforeach
@@ -66,7 +66,7 @@
 
                 <div class="form-group col-md-6">
                     <label for="name">Place type: *</label>
-                    <select class="form-control chosen-select" id="" name="place_type[]" multiple data-live-search="true" required>
+                    <select class="form-control chosen-select" id="" name="place_type[]" multiple data-live-search="true">
                         @foreach($place_types as $cat)
                             <optgroup label="{{$cat->name}}">
                                 @foreach($cat['place_type'] as $type)
