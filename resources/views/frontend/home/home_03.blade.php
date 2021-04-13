@@ -23,7 +23,7 @@
                         <div class="item"><img src="{{$home_banner}}" alt="Banner"></div>
                     </div>
                 </div><!-- .banner -->
-            </div> 
+            <!-- </div>  -->
             <!-- <div class="container">
                 <div class="banner-content">
                     <span>{{__('Drink, Food & Enjoy')}}</span>
