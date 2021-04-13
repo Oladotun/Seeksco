@@ -60,7 +60,7 @@ class HomeController extends Controller
             ->join('places', 'places.category', 'like', DB::raw("CONCAT('%', categories.id, '%')"))
             ->select('categories.id as id', 'categories.name as name', 'categories.priority as priority', 'categories.slug as slug', 'categories.color_code as color_code', 'categories.icon_map_marker as icon_map_marker', DB::raw("count(places.category) as place_count"))
             ->groupBy('categories.id')
-            ->orderBy('categories.priority')
+            ->orderBy('place_count','desc')
             ->limit(10)
             ->get();
 
