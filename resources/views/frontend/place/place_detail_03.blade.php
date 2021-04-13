@@ -183,6 +183,7 @@
                                 <!-- <a href="#" class="show-more" title="{{__('Show more')}}">{{__('Show more')}}</a> -->
                             </div>
 
+                            @if(isset($place->menu))
                             <div class="place__box place__box-map">
                                 <h3 class="place__title--additional">
                                     Menu
@@ -205,6 +206,7 @@
                                     </div>
                                 </div>
                             </div><!-- .place__box -->
+                            @endif
 
                             @if(isset($place['faq']))
                                 <div class="place__box">
