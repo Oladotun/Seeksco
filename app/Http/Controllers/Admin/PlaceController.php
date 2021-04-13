@@ -205,10 +205,10 @@ class PlaceController extends Controller
             return redirect(route('admin_place_list'))->with('success', 'Update place success!');
         }
         else {
-            return redirect(back())->withErrors($model)
+            return redirect(back())->withErrors($model);
         }
 
-        return $place; 
+        // return $place; 
     }
 
     public function updateStatus(Request $request)
