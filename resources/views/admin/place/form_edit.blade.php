@@ -1,4 +1,4 @@
-<form action="{{route('admin_place_update')}}" enctype="multipart/form-data" method="post">
+<form action="{{route('admin_place_update'),$place->id}}" enctype="multipart/form-data" method="post">
     @method('put')
     @csrf
 

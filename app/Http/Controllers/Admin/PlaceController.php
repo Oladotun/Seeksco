@@ -147,7 +147,7 @@ class PlaceController extends Controller
 
     }
 
-    public function update(Request $request)
+    public function update(Request $request, Place $place)
     {
         $request['slug'] = getSlug($request, 'name');
         $rule_factory = RuleFactory::make([
@@ -204,6 +204,8 @@ class PlaceController extends Controller
         if ($model->save()) {
             return redirect(route('admin_place_list'))->with('success', 'Update place success!');
         }
+
+        return $place; 
     }
 
     public function updateStatus(Request $request)
