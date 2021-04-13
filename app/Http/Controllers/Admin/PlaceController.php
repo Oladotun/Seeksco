@@ -120,6 +120,18 @@ class PlaceController extends Controller
         ]);
         $data = $this->validate($request, $rule_factory);
 
+        if (!isset($data['category'])) {
+            $data['category'] = "";
+        }
+
+        if (!isset($data['place_type'])) {
+            $data['place_type'] = "";
+        }
+
+        if (!isset($data['%description%'])) {
+            $data['%description%'] = "";
+        }
+
         if (!isset($data['social'])) {
             $data['social'] = null;
         }
