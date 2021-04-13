@@ -1,16 +1,11 @@
-@if ($errors->any())
-        <div class="alert alert-danger">
-            <ul>
-                @foreach ($errors->all() as $error)
-                    <li>{{ $error }}</li>
-                @endforeach
-            </ul>
-        </div>
-    @endif
 
 <form action="{{route('admin_place_update',['place'=> $place])}}" enctype="multipart/form-data" method="post">
     @method('put')
     @csrf
+
+    @if($errors->any())
+         {{ implode('', $errors->all('<div>:message</div>')) }}
+    @endif
 
     <div class="tab-content">
 

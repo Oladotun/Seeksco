@@ -204,6 +204,9 @@ class PlaceController extends Controller
         if ($model->save()) {
             return redirect(route('admin_place_list'))->with('success', 'Update place success!');
         }
+        els {
+            return redirect(back())->withErrors($model)
+        }
 
         return $place; 
     }
