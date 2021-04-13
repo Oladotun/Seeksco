@@ -61,7 +61,7 @@
                     <div class="row" style="margin-left:300px">
                         <span class="col-md-12"><b style="font-size: 32pt; color: black">{{__('SeeksCo')}}</b></span>
                     
-                    <span style="margin-left:-50px"><strong style="font-size: 10pt; color: black">{{__('Discover Great Local Restaurant ')}}</strong> <strong style="color:#00563F">{{__(' starting in')}}</strong> <b style="color:#E9AF2F">{{__('Fitchburg,MA.')}}</strong> </span>
+                    <span style="margin-left:-50px"><strong style="font-size: 10pt; color: black">{{__('Discover Great Local Restaurant ')}}</strong> <strong style="color:#00563F">{{__(' starting in')}}</strong> <strong style="color:#E9AF2F">{{__('Fitchburg,MA.')}}</strong> </span>
                     
                     </div>
                     
