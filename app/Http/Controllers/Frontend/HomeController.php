@@ -69,10 +69,12 @@ class HomeController extends Controller
             ->with('categories')
             ->with('city')
             ->with('place_types')
-            ->withCount('reviews')
             ->with('avgReview')
             ->withCount('wishList')
             ->where('status', Place::STATUS_ACTIVE)
+            ->withCount('reviews')
+            ->orderBy('reviews_count','desc')
+
             // ->limit(10)
             ->get();
 
