@@ -193,7 +193,7 @@
                                         <div class="flex">
                                             @foreach($place->menu as $menu)
                                                 <div class="menu-item">
-                                                    <img src="{{$menu['thumb']}}" alt="Calamari Fritti">
+                                                    <!-- <img src="{{$menu['thumb']}}" alt="Calamari Fritti"> -->
                                                     <div class="menu-info">
                                                         <h4>{{$menu['name']}}</h4>
                                                         <p>{{$menu['description']}}</p>
