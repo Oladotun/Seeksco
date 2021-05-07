@@ -197,6 +197,9 @@
                                                     <div class="menu-info">
                                                         <h4>{{$menu['name']}}</h4>
                                                         <p>{{$menu['description']}}</p>
+                                                        
+                                                    </div>
+                                                    <div>
                                                         <span class="price">{{$menu['price']}}</span>
                                                     </div>
                                                 </div>
